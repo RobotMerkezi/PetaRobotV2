@@ -12,8 +12,18 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="inner.css" />
+    <script>
+      var el = document.querySelector("#deneme");
+      el.style.cssText = "height: var(--device-width) / 1.5  ";
+    </script>
   </head>
   <body>
-    <h1>Deneme</h1>
+    <ul>
+      <li><a href="#">Item 1</a></li>
+      <li><a href="#">Item 2</a></li>
+      <li><a href="#">Item 3</a></li>
+      <li><a href="#">Item 4</a></li>
+    </ul>
+    <img id="deneme" class="arkaplan-resim" src="arkaplan.jpg" />
   </body>
 </html>
